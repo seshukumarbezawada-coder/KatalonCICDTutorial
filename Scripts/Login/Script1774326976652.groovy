@@ -31,3 +31,5 @@ WebUI.click(findTestObject('Page_CURA Healthcare Service/button_btn-login'))
 
 WebUI.verifyTextPresent('Login failed! Please ensure the username and password are valid.', false)
 
+WebUI.closeBrowser()
+
